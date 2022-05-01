@@ -55,7 +55,7 @@ p {
     box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
     background: white;
     transition: all 0.3s ease;
-    height: 50px;
+    height: 60px;
     padding: 0px 30px;
     display: flex;
     align-items: center;
@@ -65,10 +65,10 @@ p {
     position: sticky;
 }
 .navbar img {
-    height: 30px;
+    height: 38px;
 }
 .header {
-    background-image: url("https://images.squarespace-cdn.com/content/v1/5a0c91abb1ffb642f9963fdb/1609351474837-YPDL2N0G54XYHE9HV8JA/IMG_0682.JPG?format=1500w");
+    background-image: url("https://cdn.vox-cdn.com/thumbor/OEjhPjKCalMyyCYdLiaJi3LGTOk=/0x0:4000x2667/1820x1213/filters:focal(1680x1014:2320x1654):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/67812464/Carpentry_Gift_Guide.0.0.jpeg");
     width: 100vw;
     height: 71vh;
     display: flex;
@@ -136,7 +136,7 @@ p {
     margin: 5px 30px 3px 30px !important;
 }
 .footer {
-    background-color: rgba(0,0,0,0.90);
+    background-color: darkorange;
     width: 100vw;
     height: fit-content;
     display: flex;
