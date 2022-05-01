@@ -29,7 +29,7 @@ h1 {
     font-family: 'Bebas Neue', cursive;
     font-weight: 400;
     color: white;
-    text-shadow: 0px 0px 5px rgba(0,0,0,0.7);
+    text-shadow: 0px 0px 5px rgba(255,255,255,0.7), 0px 0px 20px rgba(0,0,0,0.9);
     margin-bottom: 10px;
 }
 h2 {
@@ -79,26 +79,45 @@ p {
     background-position: center;
     box-shadow: 1px 1px 6px 0 rgba(0,0,0,0.3),0 1px 0 0 rgba(0,0,0,0.03);
 }
+.intro {
+    max-width: 60%;
+    
+    padding-bottom: 4%;
+}
 .intro h2 {
+    margin-bottom: 8%;
     text-align: center;
+}
+.intro p {
+    text-align: justify;
 }
 .content {
     background-color: white;
-    padding: 4% 10vw 4% 10vw;
+    padding: 6% 14vw 2% 14vw;
 }
 .block {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 4% 0 7% 0;
+    align-items: top;
+    justify-content: space-around;
+    margin: 4% 0 0 0;
+}
+.flexbox-center {
+    display: flex;
+    justify-content: space-around;
 }
 .dialogue {
-    max-width: 55vw;
+    max-width: 60%;
     text-align: justify;
+    margin: 2% 14vw 2% 14vw;
 }
+
 .void {
-    width: 3px;
+    display: flex;
+    justify-content: flex-start;
+    width: fit-content;
+    height: 100%;
 }
+
 .question {
     font-weight: 300;
     margin-top: 18px !important;
