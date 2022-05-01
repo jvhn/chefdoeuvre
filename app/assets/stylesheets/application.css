@@ -13,25 +13,34 @@
  *= require_tree .
  *= require_self
  */
-
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Serif:wght@300&family=Roboto:wght@100;300;400&display=swap');
 body {
     margin: 0 !important;
 }
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'Roboto', sans-serif; */
 h1 {
     margin-top: 0 !important;
-    font-size: 34px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    color: white;
+    text-shadow: 0px 0px 5px rgb(0 0 0 / 70%);
+    margin-bottom: 10px;
 }
 h2 {
     font-size: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'IBM Plex Serif', serif;
     font-weight: 300;
+    color: rgba(0,0,0,0.7);
+    margin: 0 0 4% 0;
 }
 h3 {
     font-size: 24px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'IBM Plex Serif', serif;
     font-weight: 300;
+    color: rgba(0,0,0,0.7);
 }
 p {
     font-size: 13px;
@@ -40,28 +49,46 @@ p {
     line-height: 18px;
     font-weight: 100;
 }
+.navbar {
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+    background: white;
+    transition: all 0.3s ease;
+    height: 50px;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    z-index: 100;
+    position: sticky;
+    width: 100%;
+}
+.navbar img {
+    height: 30px;
+}
 .header {
-    background-color: rebeccapurple;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5a0c91abb1ffb642f9963fdb/1609351474837-YPDL2N0G54XYHE9HV8JA/IMG_0682.JPG?format=1500w");
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.banner {
-
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    box-shadow: 1px 1px 6px 0 rgba(0,0,0,0.3),0 1px 0 0 rgba(0,0,0,0.03);
 }
 .intro h2 {
     text-align: center;
 }
 .content {
-    margin: 10% 5% 10% 5%;
+    margin: 4% 5% 10% 5%;
 }
 .block {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 1% 0 10% 0;
+    margin: 4% 0 10% 0;
 }
 .dialogue {
     max-width: 70vw;
