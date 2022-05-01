@@ -14,9 +14,11 @@
  *= require_self
  */
  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Serif:wght@300&family=Roboto:wght@100;300;400&display=swap');
-body {
+
+ body {
     margin: 0 !important;
 }
+
 /* font-family: 'Bebas Neue', cursive;
 font-family: 'IBM Plex Serif', serif;
 font-family: 'Roboto', sans-serif; */
@@ -61,7 +63,6 @@ p {
     top: 0px;
     z-index: 100;
     position: sticky;
-    width: 100%;
 }
 .navbar img {
     height: 30px;
